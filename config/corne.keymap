@@ -15,7 +15,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
@@ -28,7 +28,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
@@ -57,19 +57,19 @@
 
         layer_1 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans         &trans    &kp UP_ARROW  &trans     &trans  &trans
-&kp F7  &kp F8  &trans  &trans  &trans  &trans    &trans         &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans    &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &kp BACKSPACE  &trans    &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &trans         &trans    &kp UP_ARROW  &trans     &trans  &trans
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &trans         &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans   &trans   &trans     &trans         &trans    &trans        &trans     &trans  &trans
+                        &trans   &trans   &trans     &kp BACKSPACE  &trans    &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans    &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans    &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                        &trans  &trans          &trans    &trans        &trans        &trans
+&trans  &trans  &trans        &trans  &trans          &trans    &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
+&trans  &trans  &kp LEFT_ALT  &trans  &kp LEFT_SHIFT  &trans    &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans  &trans  &trans        &trans  &trans          &trans    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                              &trans  &trans          &trans    &trans        &trans        &trans
             >;
         };
     };
