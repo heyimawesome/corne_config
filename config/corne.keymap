@@ -72,5 +72,14 @@
                               &trans  &trans          &trans    &trans        &trans        &trans
             >;
         };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp N5  &kp NUMBER_5  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
