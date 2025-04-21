@@ -51,7 +51,7 @@
 &kp ESCAPE  &kp Q            &kp W            &kp F         &kp P         &kp B     &kp J      &kp L               &kp U         &kp Y             &kp SEMI         &kp MINUS
 &kp TAB     &HML LEFT_GUI A  &HML LEFT_ALT R  &HML LCTRL S  &HML LSHFT T  &kp G     &kp M      &HMR RIGHT_SHIFT N  &HMR RCTRL E  &HMR RIGHT_ALT I  &HMR LEFT_GUI O  &kp SQT
 &kp LCTRL   &kp Z            &kp X            &kp C         &kp D         &kp V     &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH         &kp BACKSLASH
-                                              &mo 3         &mo 1         &trans    &kp SPACE  &kp RET             &trans
+                                              &mo 2         &mo 1         &trans    &kp SPACE  &kp RET             &trans
             >;
         };
 
@@ -70,15 +70,6 @@
 &trans  &trans  &kp LEFT_ALT  &trans  &kp LEFT_SHIFT  &trans    &trans        &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &trans  &trans
 &trans  &trans  &trans        &trans  &trans          &trans    &kp NUMBER_0  &mt EXCL NUMBER_1  &mt AT NUMBER_2  &kp NUMBER_3  &trans  &trans
                               &trans  &trans          &trans    &trans        &trans             &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp N5  &kp NUMBER_5  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
