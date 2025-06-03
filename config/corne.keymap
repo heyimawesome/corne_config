@@ -68,10 +68,10 @@
 
         NUMPAD {
             bindings = <
-&none  &none  &none  &none  &none  &none             &kp EQUAL      &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&none  &none  &none  &none  &none  &none             &kp GRAVE      &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&none  &none  &none  &none  &none  &none             &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-                     &none  &none  &kp LEFT_SHIFT    &kp BACKSPACE  &none         &kp RIGHT_ALT
+&none  &none  &none  &none  &none           &none             &kp EQUAL      &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&none  &none  &none  &none  &kp LEFT_SHIFT  &none             &kp GRAVE      &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&none  &none  &none  &none  &none           &none             &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+                     &none  &none           &kp LEFT_SHIFT    &kp BACKSPACE  &none         &kp RIGHT_ALT
             >;
 
             label = "NUMPAD";
